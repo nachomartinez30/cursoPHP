@@ -212,7 +212,7 @@
       <workItem from="1521834613314" duration="5133000" />
       <workItem from="1522077819416" duration="92000" />
       <workItem from="1522077924601" duration="1741000" />
-      <workItem from="1522079729287" duration="718000" />
+      <workItem from="1522079729287" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="agregando parrafo de ejemplo">
       <created>1522080433567</created>
@@ -221,11 +221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522080433567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agregando parrafo de ejemplo">
+      <created>1522080453210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522080453210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48256000" />
+    <option name="totallyTimeSpent" value="48371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,6 +270,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
