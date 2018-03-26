@@ -8,12 +8,12 @@ if (!empty($_POST)) {
     $contenido = $_POST['contenido'];
 
     $insertar = $pdo->prepare($sql);
-    $insertar->execute([
+    $resultado = $insertar->execute([
         'titulo' => $titulo,
         'contenido' => $contenido
     ]);
-    if ($insertar) {/*si se insertó*/
-        echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Nuevo registro!</strong></div>";
+    if ($resultado) {/*si se insertó*/
+        header("Location: posts.php");
     }
 }
 
