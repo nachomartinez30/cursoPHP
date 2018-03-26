@@ -1,5 +1,5 @@
 <?php
-
+require "../navbar.php";
 ?>
 
 <!doctype html>
