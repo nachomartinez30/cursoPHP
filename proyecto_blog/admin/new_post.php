@@ -1,7 +1,4 @@
 <?php
-include "../connect.php";
-require "../navbar.php";
-
 $sql = "INSERT INTO blog_post (titulo, contenido) VALUES (:titulo,:contenido);";
 if (!empty($_POST)) {
     $titulo = $_POST['titulo'];

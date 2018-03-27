@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f70ddd-1191-4bc5-8c79-0cbb1a12fba3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/proyecto_blog/public/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/proyecto_blog/admin/index.php" afterPath="$PROJECT_DIR$/proyecto_blog/admin/index.php" />
+      <change beforePath="$PROJECT_DIR$/proyecto_blog/admin/new_post.php" afterPath="$PROJECT_DIR$/proyecto_blog/admin/new_post.php" />
+      <change beforePath="$PROJECT_DIR$/proyecto_blog/admin/posts.php" afterPath="$PROJECT_DIR$/proyecto_blog/admin/posts.php" />
+      <change beforePath="$PROJECT_DIR$/proyecto_blog/image/glasses.jfif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/proyecto_blog/index.php" afterPath="$PROJECT_DIR$/proyecto_blog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="5315ade3-fe96-4c93-850e-1cf78f4f6f32" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="5315ade3-fe96-4c93-850e-1cf78f4f6f32" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/proyecto_blog/composer.json</pharConfigPath>
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
   </component>
@@ -20,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.json">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proyecto_blog/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proyecto_blog/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -70,16 +66,17 @@
         <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/fake_login.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/admin/nuew_post.php" />
-        <option value="$PROJECT_DIR$/proyecto_blog/index.php" />
-        <option value="$PROJECT_DIR$/proyecto_blog/admin/posts.php" />
-        <option value="$PROJECT_DIR$/proyecto_blog/admin/index.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/navbar.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/admin/post.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/admin/Post.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/connect.php" />
-        <option value="$PROJECT_DIR$/proyecto_blog/admin/new_post.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/new.php" />
         <option value="$PROJECT_DIR$/proyecto_blog/composer.json" />
+        <option value="$PROJECT_DIR$/proyecto_blog/admin/posts.php" />
+        <option value="$PROJECT_DIR$/proyecto_blog/admin/new_post.php" />
+        <option value="$PROJECT_DIR$/proyecto_blog/public/index.php" />
+        <option value="$PROJECT_DIR$/proyecto_blog/admin/index.php" />
+        <option value="$PROJECT_DIR$/proyecto_blog/index.php" />
       </list>
     </option>
   </component>
@@ -141,28 +138,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
-              <item name="proyecto_blog" type="cbb8eebc:String" user="proyecto_blog" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
-              <item name="proyecto_blog" type="cbb8eebc:String" user="proyecto_blog" />
-              <item name="vendor" type="cbb8eebc:String" user="vendor" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +154,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
+              <item name="proyecto_blog" type="cbb8eebc:String" user="proyecto_blog" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="cursoPHP" type="cbb8eebc:String" user="cursoPHP" />
+              <item name="proyecto_blog" type="cbb8eebc:String" user="proyecto_blog" />
+              <item name="public" type="cbb8eebc:String" user="public" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,12 +186,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\desarrollo1.CONAFOR\Proyectos\CURSO_PHP\individual" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\desarrollo1.CONAFOR\Proyectos\cursoPHP\proyecto_blog\public" />
       <recent name="C:\Users\desarrollo1.CONAFOR\Proyectos\CURSO_PHP\individual" />
       <recent name="C:\Users\desarrollo1.CONAFOR\Proyectos\CURSO_PHP\proyecto_blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\desarrollo1.CONAFOR\Proyectos\CURSO_PHP\individual" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +235,9 @@
       <workItem from="1522077819416" duration="92000" />
       <workItem from="1522077924601" duration="1741000" />
       <workItem from="1522079729287" duration="7264000" />
-      <workItem from="1522088226501" duration="879000" />
+      <workItem from="1522088226501" duration="8235000" />
+      <workItem from="1522105846293" duration="767000" />
+      <workItem from="1522106745741" duration="2742000" />
     </task>
     <task id="LOCAL-00001" summary="agregando parrafo de ejemplo">
       <created>1522080433567</created>
@@ -274,11 +274,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522089100883</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="composer agregado">
+      <created>1522089112331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522089112331</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55681000" />
+    <option name="totallyTimeSpent" value="66546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,9 +299,10 @@
   <component name="ToolWindowManager">
     <frame x="83" y="0" width="1364" height="867" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15720859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13496932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,7 +313,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -379,20 +386,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/new_post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <marker date="1522083918478" expanded="true" signature="66:135" ph="INSERT INTO blog_post... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -400,6 +397,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="44" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,6 +408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -421,6 +423,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,6 +434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -442,6 +449,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,6 +460,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,6 +471,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -463,6 +482,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,18 +679,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/admin.php" />
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/navbar.php" />
     <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/Post.php" />
     <entry file="file://$PROJECT_DIR$/proyecto_blog/connect.php">
@@ -679,30 +694,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/new.php" />
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/new_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1522083918478" expanded="true" signature="66:135" ph="INSERT INTO blog_post... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://PHP/C:/Users/desarrollo1.CONAFOR/Proyectos/cursoPHP/proyecto_blog">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -722,18 +713,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/new_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1522105767954" expanded="true" signature="30:81" ph="SELECT * FRO... blog_post" />
+            <marker date="1522105767954" expanded="true" signature="30:84" ph="SELECT titul... blog_post" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>

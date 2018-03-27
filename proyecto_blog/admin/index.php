@@ -1,7 +1,3 @@
-<?php
-require "../navbar.php";
-?>
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -24,7 +20,7 @@ require "../navbar.php";
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <h1 align="center">Bienvenido</h1>
+            <h1 align="center">Bienvenidos</h1>
         </div>
     </div>
     <div class="row">

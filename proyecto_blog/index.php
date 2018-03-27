@@ -1,6 +1,4 @@
 <?php
-require "connect.php";
-require "navbar.php";
 $query = $pdo->prepare("SELECT titulo,contenido FROM blog_post ORDER BY id ASC");
 $query->execute();
 
