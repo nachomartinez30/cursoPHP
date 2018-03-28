@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f70ddd-1191-4bc5-8c79-0cbb1a12fba3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CURSO_PHP.iml" afterPath="$PROJECT_DIR$/.idea/CURSO_PHP.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/composer.json" afterPath="$PROJECT_DIR$/proyecto_blog/composer.json" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/index.php" afterPath="$PROJECT_DIR$/proyecto_blog/index.php" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/public/index.php" afterPath="$PROJECT_DIR$/proyecto_blog/public/index.php" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/proyecto_blog/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/proyecto_blog/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/proyecto_blog/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/proyecto_blog/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,14 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proyecto_blog/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="305">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <marker date="1522191679234" expanded="true" signature="514:568" ph="SELECT titul... blog_post" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -269,7 +271,7 @@
       <workItem from="1522106745741" duration="2823000" />
       <workItem from="1522109706941" duration="117000" />
       <workItem from="1522164544903" duration="9029000" />
-      <workItem from="1522182794192" duration="4516000" />
+      <workItem from="1522182794192" duration="4980000" />
     </task>
     <task id="LOCAL-00001" summary="agregando parrafo de ejemplo">
       <created>1522080433567</created>
@@ -320,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522109633905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Router añadido">
+      <created>1522196315218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522196315218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80289000" />
+    <option name="totallyTimeSpent" value="80753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +428,8 @@
     <MESSAGE value="modulo para insertar nuevos posts" />
     <MESSAGE value="composer agregado" />
     <MESSAGE value="carpeta public agregada" />
-    <option name="LAST_COMMIT_MESSAGE" value="carpeta public agregada" />
+    <MESSAGE value="Router añadido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Router añadido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -770,11 +773,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto_blog/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="305">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <marker date="1522191679234" expanded="true" signature="514:568" ph="SELECT titul... blog_post" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto_blog/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
