@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/proyecto_blog/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/proyecto_blog/vendor/phroute/phroute" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

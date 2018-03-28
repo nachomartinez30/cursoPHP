@@ -1,9 +1,4 @@
-<?php
-$query = $pdo->prepare("SELECT titulo,contenido FROM blog_post ORDER BY id ASC");
-$query->execute();
 
-$blogPost = $query->fetchAll(PDO::FETCH_ASSOC);
-?>
 
 <!doctype html>
 <html lang="es">

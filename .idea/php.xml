@@ -3,6 +3,7 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/proyecto_blog/vendor/composer" />
+      <path value="$PROJECT_DIR$/proyecto_blog/vendor/phroute/phroute" />
     </include_path>
   </component>
 </project>
