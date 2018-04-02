@@ -27,7 +27,9 @@ $ruta->get("/", function () use ($pdo) { /*añade la ruta '/' t retorna 'Route/'
     $query->execute();
 
     $blogPost = $query->fetchAll(PDO::FETCH_ASSOC);
-    require "../views/index.php";/*el archivo debe contener el nombre de la misma variable que almacena la consulta*/
+
+    return render('../views/index.php',['blogPost'=>$blogPost]);/*el archivo debe contener el nombre de la misma variable que almacena la consulta*/
+
 });
 
 $dispatcher = new Phroute\Phroute\Dispatcher($ruta->getData());
@@ -35,11 +37,9 @@ $respuesta = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $rut);
 
 echo $respuesta;
 
-
 function render($nombreArchivo, $parametros = [])
 {
     ob_start();
-
     extract($parametros);
     include "../views/index.php";
 
